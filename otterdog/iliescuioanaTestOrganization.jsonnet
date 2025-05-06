@@ -13,7 +13,7 @@ orgs.newOrg('iliescuioanaTestOrganization', 'iliescuioanaTestOrganization') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       dependabot_alerts_enabled: false,
-      description: "TEST REPO",
+      description: "TEST REPOOOO",
       has_issues: false,
       homepage: "",
       secret_scanning: "disabled",
