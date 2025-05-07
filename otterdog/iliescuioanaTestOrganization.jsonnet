@@ -21,6 +21,8 @@ orgs.newOrg('iliescuioanaTestOrganization', 'iliescuioanaTestOrganization') {
       code_scanning_default_setup_enabled: true,
       code_scanning_default_languages: [
         'javascript-typescript',
+        'javascript',
+        'typescript',
       ],
     }
   ],
