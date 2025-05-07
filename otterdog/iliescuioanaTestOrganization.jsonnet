@@ -18,6 +18,12 @@ orgs.newOrg('iliescuioanaTestOrganization', 'iliescuioanaTestOrganization') {
       homepage: "",
       secret_scanning: "disabled",
       secret_scanning_push_protection: "disabled",
+      code_scanning_default_setup_enabled: true,
+      code_scanning_default_languages: [
+        'javascript-typescript',
+        'javascript',
+        'typescript',
+      ],
     }
   ],
 }
